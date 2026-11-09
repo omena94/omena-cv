@@ -1,0 +1,62 @@
+{
+  "name": "余孟庭",
+  "alias": "Omena",
+  "romanized": "Yu Meng-Ting",
+  "headline": "資訊護理師｜需求分析・產品協作・AI 輔助開發",
+  "target": "應徵方向：軟體開發工程師（兼產品 PM）",
+  "email": "umt940807@gmail.com",
+  "github": "https://github.com/omena94",
+  "location": "台北市",
+  "availability": "錄取後一個月可到職",
+  "updated": "2026-11-09",
+  "summary": "具約 8 年急診與手術室臨床護理經驗，現任國泰綜合醫院資訊護理師，負責需求蒐集、跨部門協調、系統測試與上線支援。從職護工作流程出發製作日誌工具，也參與婚禮網站與平台開發。能把使用者的描述整理成需求、功能與驗收項目，並以 Claude Code 協作開發、測試與檢查程式碼，朝兼具產品規劃與開發能力的角色發展。",
+  "competencies": [
+    {"label": "需求理解與規劃", "text": "訪談使用單位、釐清工作流程，整理需求文件與測試驗收項目。"},
+    {"label": "跨團隊協作", "text": "擔任醫療單位與資訊室窗口，追蹤開發進度，協調上線與教育訓練。"},
+    {"label": "網頁與 API 開發", "text": "專案使用 React、JavaScript／TypeScript、Python／FastAPI，串接 PostgreSQL、Redis。"},
+    {"label": "AI 協作與品質驗證", "text": "使用 Claude Code，配合 Git／GitHub、Pull Request、pytest、node:test 與 ESLint。"},
+    {"label": "醫療與職業健康領域", "text": "臨床照護、勞工健康服務、健檢資料整理，以及緊急醫療應變資訊彙整。"}
+  ],
+  "experience": [
+    {"title": "資訊護理師", "organization": "國泰醫療財團法人國泰綜合醫院", "period": "2026.03 - 現在", "bullets": [
+      "蒐集、分析各醫療單位的資訊需求，擔任醫療現場與資訊室之間的溝通窗口。",
+      "追蹤開發進度、執行測試驗證，協調系統導入、上線及使用者教育訓練。",
+      "撰寫需求文件、測試紀錄與作業文件，協助功能改善及問題排除。"
+    ]},
+    {"title": "廠護／勞工健康服務護理人員", "organization": "勝利工業股份有限公司", "period": "2025.02 - 2026.03", "bullets": [
+      "規劃與執行勞工健康服務，整理員工健檢數據、健康管理紀錄與追蹤報表。",
+      "將自身紀錄需求轉成職護工作日誌網頁工具，整合日誌、待辦、範本與匯出。"
+    ]},
+    {"title": "臨僱技術師", "organization": "臺北市政府衛生局", "period": "2024.04 - 2024.12", "bullets": [
+      "掌握緊急醫療救護資源並建置資料庫，彙整與通報災情、疫情及大量傷病患資訊。",
+      "辦理災難醫療救援業務聯繫，以及緊急醫療應變單位通訊測試。"
+    ]}
+  ],
+  "clinical": {
+    "title": "臨床護理經歷",
+    "period": "2014 - 2023（歷任）",
+    "text": "臺北市立聯合醫院中興院區急診（2015.05 - 2022.02）；三軍總醫院手術室（2022.03 - 2023.01）；臺安醫院手術室（2023.06 - 2023.09）；義大醫院（2014.12 - 2015.04）。累積健康評估、護理指導、教學與高壓情境溝通經驗。"
+  },
+  "projects": [
+    {"title": "職護工作日誌 2.0", "period": "2025.07", "role": "個人工具開發", "technology": "HTML / CSS / JavaScript / localStorage / SheetJS", "url": "https://github.com/omena94/ohs-diary/tree/main/v2", "linkLabel": "查看 2.0 原始碼", "bullets": [
+      "從廠護任內的工作紀錄需求出發，將日誌分類、工作變更、待辦事項與範本整理在單一網頁。",
+      "實作 Excel／JSON 匯入匯出與備份還原，資料保存於瀏覽器 localStorage；此處介紹原始 2.0 版本。"
+    ]},
+    {"title": "Wedding-Invite 婚禮網站", "period": "2026.09 - 2026.10", "role": "主要開發、需求整理與驗收；與共同開發者協作", "technology": "React / Vite / FastAPI / PostgreSQL / Redis / AWS EC2、S3", "url": "https://github.com/omena94/Wedding-Invite", "linkLabel": "查看專案原始碼", "bullets": [
+      "以自身婚禮籌備為情境，參與兩階段出席回覆、賓客管理、座位安排、預算與角色權限的開發。",
+      "依婚宴改為自助餐等需求調整表單；實作排位規則與一鍵安排，配合自動化測試檢查變更。",
+      "出席回覆連結已提供親友；原網站於 2026 年 10 月移轉，婚禮當日功能尚未現場使用。"
+    ]},
+    {"title": "好日 Ho Lit 婚禮平台", "period": "2026.10", "role": "概念發想與協作開發", "technology": "產品需求拆解 / 後台功能 / 資料匯入 / GitHub PR 協作", "url": "https://wedding.care", "linkLabel": "查看好日網站", "bullets": [
+      "由自身婚禮網站的需求延伸，參與多租戶婚禮平台的概念發想，與共同開發者協作。",
+      "參與喜帖範本管理、菜單 PDF／文字匯入、營運數據與喜餅模組調整；菜單換版保留既有狀態與備註。",
+      "以 Pull Request 整合功能與修正，並逐句核對官網文案和實作內容。"
+    ]}
+  ],
+  "education": [
+    {"school": "德明財經科技大學", "degree": "企業管理學系・二技畢業（在職進修）", "period": "2024.09 - 2026.06"},
+    {"school": "輔英科技大學", "degree": "護理科・五專畢業", "period": "2009.09 - 2014.06"}
+  ],
+  "certifications": "高考護理師執照、勞工健康服務護理人員；CPR、ACLS 訓練。",
+  "languages": "中文：母語；台語：精通；英文：可閱讀操作文件，聽力中等、說讀寫基礎（TOEIC Bridge）。"
+}

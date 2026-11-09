@@ -1,0 +1,6 @@
+.local/
+.impeccable/
+PRODUCT.md
+__pycache__/
+*.pyc
+node_modules/
