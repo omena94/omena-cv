@@ -6,6 +6,16 @@
 
 繁體中文履歷，聚焦醫療資訊需求分析、跨部門協作與網頁專案。內容及章節依 `ai-job-search` 的候選人資料與 CV 工作流程整理；網頁沿用 moderncv banking 的單欄結構與藍色標題，並提供兩頁 A4 PDF。
 
+## 外商廠護應徵版本
+
+針對萬寶華代徵的[知名大型外商廠護職缺（104：97q7s）](https://www.104.com.tw/job/97q7s)，聚焦勞工健康服務、健檢追蹤、臨床護理與緊急醫療應變經驗。
+
+- [閱讀廠護履歷](https://omena94.github.io/omena-cv/manpower-97q7s/)
+- [下載兩頁 PDF](https://omena94.github.io/omena-cv/manpower-97q7s/Omena-Occupational-Nurse-CV.pdf)
+- [自我推薦信](manpower-97q7s/cover-letter.txt)
+
+此版本的內容來源為 `manpower-97q7s/cv.json`。執行 `python manpower-97q7s/build.py` 更新網頁及推薦信，再以 A4、100% 比例、無頁首頁尾列印該網頁，輸出至 `manpower-97q7s/Omena-Occupational-Nurse-CV.pdf`；最後執行 `python normalize_pdf.py manpower-97q7s/Omena-Occupational-Nurse-CV.pdf` 並檢查兩頁排版。版型共用根目錄的 `styles.css`。
+
 ## 更新
 
 `cv.json` 是網頁與 PDF 的共同內容來源。修改後執行：
